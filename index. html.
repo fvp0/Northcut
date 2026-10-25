@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b111b">
+<meta name="description" content="NorthCut: plano de corte inteligente para marcenaria. Baixe para Android.">
+<title>NorthCut | Plano de Corte Inteligente</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#0b111b;color:#f4f6fa;font-family:Arial,Helvetica,sans-serif}
+header{display:flex;align-items:center;justify-content:space-between;padding:22px 7%;border-bottom:1px solid #293241}
+.logo{font-size:25px;font-weight:900;letter-spacing:-1px}.logo span{color:#d9ad5b}
+header a{color:#d9ad5b;text-decoration:none;font-size:14px}
+main{max-width:1080px;margin:auto;padding:70px 22px 35px}
+.hero{text-align:center}
+.tag{display:inline-block;color:#e6bb70;border:1px solid #806539;border-radius:30px;padding:9px 16px;font-size:12px;letter-spacing:2px}
+h1{font-size:clamp(44px,9vw,86px);margin:25px 0 10px;letter-spacing:-3px}
+h1 span{color:#d9ad5b}
+.subtitle{font-size:clamp(18px,3vw,25px);color:#c8d0db;line-height:1.5;max-width:700px;margin:0 auto 30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#f2cf86,#bd8737);color:#10151e;text-decoration:none;border-radius:14px;padding:19px 32px;font-size:17px;font-weight:800;box-shadow:0 12px 35px #bd873730}
+.note{color:#96a2b4;font-size:13px;margin:18px 0 45px}
+.preview{background:linear-gradient(140deg,#202d3d,#101923);border:1px solid #3a4556;border-radius:24px;padding:28px;max-width:700px;margin:30px auto 70px;box-shadow:0 25px 65px #0005}
+.preview-title{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #435064;padding-bottom:17px;color:#d9ad5b;font-weight:700}
+.sheet{background:#dce5e7;border:8px solid #a7b6bb;border-radius:8px;width:100%;max-width:420px;aspect-ratio:275/185;margin:25px auto;display:grid;grid-template-columns:1.3fr 1fr 0.8fr;grid-template-rows:1fr 1fr;gap:5px;padding:5px}
+.piece{background:#7aa9ba;border:1px solid #35677c;border-radius:3px;color:#153441;font-size:12px;display:grid;place-items:center;font-weight:bold}
+.piece:nth-child(2){background:#a2b9d0}.piece:nth-child(3){background:#dfbb79}.piece:nth-child(4){background:#91bdab}.piece:nth-child(5){background:#c9a2bd}.piece:nth-child(6){background:#a6b8cb}
+section h2{text-align:center;font-size:32px;margin:20px 0 12px}
+section>p{text-align:center;color:#9daabb;line-height:1.7}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;margin:32px 0 70px}
+.card{background:#151f2c;border:1px solid #2d3b4c;border-radius:18px;padding:26px}
+.card .ico{font-size:29px}.card h3{color:#e8c27c;font-size:18px}.card p{color:#aeb8c7;line-height:1.6;font-size:14px}
+.cta{text-align:center;background:linear-gradient(140deg,#1c2938,#111923);border:1px solid #5b4b34;border-radius:24px;padding:45px 18px;margin:20px 0 65px}
+.cta p{color:#b7c1ce;line-height:1.6}
+footer{text-align:center;border-top:1px solid #283341;padding:28px;color:#7d8a9c;font-size:13px}
+@media(max-width:650px){main{padding-top:55px}.grid{grid-template-columns:1fr}.preview{padding:15px}.sheet{border-width:5px}header{padding:18px 5%}}
+</style>
+</head>
+<body>
+<header><div class="logo">NORTH<span>CUT</span></div><a href="#download">Baixar aplicativo</a></header>
+<main>
+<div class="hero">
+<div class="tag">TECNOLOGIA PARA MARCENARIA</div>
+<h1>NORTH<span>CUT</span></h1>
+<p class="subtitle">Seu plano de corte mais inteligente. Organize peças, aproveite melhor suas chapas de MDF e simplifique o trabalho na marcenaria.</p>
+<a class="btn" href="https://github.com/fvp0/northcut/releases/download/v1.0.0/Northcut.apk">⬇ Baixar para Android</a>
+<p class="note">Versão 1.0 • Download gratuito • Arquivo APK</p>
+</div>
+<div class="preview" aria-label="Ilustração de um plano de corte">
+<div class="preview-title"><span>◈ VISUALIZAÇÃO DE CORTE</span><span>CHAPA MDF</span></div>
+<div class="sheet"><div class="piece">Peça 01</div><div class="piece">Peça 02</div><div class="piece">Peça 03</div><div class="piece">Peça 04</div><div class="piece">Peça 05</div><div class="piece">Peça 06</div></div>
+<p style="text-align:center;color:#9aa8b9;font-size:12px">Ilustração demonstrativa de distribuição de peças</p>
+</div>
+<section>
+<h2>Feito para quem trabalha com madeira.</h2>
+<p>Mais organização e praticidade para seus projetos.</p>
+<div class="grid">
+<div class="card"><div class="ico">▦</div><h3>Planos de corte</h3><p>Visualize a distribuição das peças nas chapas de MDF.</p></div>
+<div class="card"><div class="ico">✂</div><h3>Aproveitamento de chapas</h3><p>Planeje os cortes e reduza desperdícios no trabalho.</p></div>
+<div class="card"><div class="ico">▤</div><h3>Organização de peças</h3><p>Organize medidas, quantidades e seus projetos de marcenaria.</p></div>
+</div>
+</section>
+<section id="download" class="cta">
+<h2>Leve o NorthCut para sua marcenaria.</h2>
+<p>Disponível para celulares Android. Baixe o instalador e comece a explorar o aplicativo.</p>
+<a class="btn" href="https://github.com/fvp0/northcut/releases/download/v1.0.0/Northcut.apk">⬇ Baixar NorthCut</a>
+<p style="font-size:12px">A instalação de APK fora da Play Store pode exigir autorização nas configurações do Android.</p>
+</section>
+</main>
+<footer>© 2026 NorthCut • Tecnologia e soluções para marcenaria</footer>
+</body>
+</html>
